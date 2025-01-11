@@ -53,8 +53,8 @@ Config.PostsOffices     =
         RPName 	        = 'Bureau de Poste de BlackWater',
         RPNotice        = 'Ouvrez votre boîte avec <b>entrer</b>',
 		databaseName 	= 'blackwater',
-		price			=  250,
-		sendprice		=  50,
+		price			=  2,
+		sendprice		=  2,
 		x 		        = -875.13, y = -1328.77,  z = 43.96
 	}
 }

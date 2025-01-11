@@ -1,3 +1,5 @@
+-- fxmanifest.lua
+
 fx_version 'cerulean'
 games {"rdr3"}
 rdr3_warning 'I acknowledge that this is a prerelease build of RedM, and I am aware my resources *will* become incompatible once RedM ships.'
@@ -22,9 +24,10 @@ client_scripts {
 }
 
 server_scripts{
-    '@mysql-async/lib/MySQL.lua',
+    '@oxmysql/lib/MySQL.lua',  
     'config.lua',
-    'modules/server-side.lua' 
+    'modules/server-side.lua',
+    'modules/notification.lua'
 }
 
 lua54 'yes'

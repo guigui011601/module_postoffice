@@ -61,24 +61,33 @@ body {
 	width: 100%;
 	overflow: hidden;
 }
+
 .notification {
-	background-color: rgba(0, 0, 0, 0.5);
-	color: white;
-	text-align: center;
+    position: absolute;
+    width: 300px;
+    left: 20px;
+    top: 30%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
     font-family: 'Raleway', sans-serif;
-	padding: 1.5rem;
+    padding: 1rem;
 }
+
 .notification .title {
     font-family: Antonio, sans-serif;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-size: 40px;
+    font-size: 24px;
 }
+
 .notification .text {
-	font-size: 1.1vw;
+    font-size: 14px;
     font-family: 'Raleway', sans-serif;
+    margin-top: 5px;
 }
+
 .redm {
     background: linear-gradient(217deg, rgb(0 0 0 / 80%), rgba(255, 0, 0, 0) 70.71%), 
     linear-gradient(127deg, rgb(0 0 0 / 80%), rgba(0, 255, 0, 0) 70.71%), 
