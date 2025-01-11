@@ -1,0 +1,17 @@
+Thanks for purchase ! 
+
+Step 1 : install the script in ressource folder called same : module_postoffice > files
+Step 2 : Import all sql files (no impact for others tables)
+Step 3 : ensure module_postoffice in server.cfg
+Step 4 : Edit the config.lua or index.html/core.css or .js for change langs, design and texts and options
+
+-- 2023 NOW use OXYMYSQL !
+
+ENJOY !
+
+---- DLC ONLY  ----
+Note for DLC users have module_nations script : https://altitude-dev.tebex.io/package/5073600
+(Soon, in the module_nation, the mayor take total money paid by players are send letters and make account in town ;)
+
+--- UNLOCK SCRIPT CFX ----
+https://altitude-dev.tebex.io/package/4962014
